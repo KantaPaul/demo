@@ -1,0 +1,38 @@
+/*
+
+------------------- Table of content --------------------------------
+
+---------------------- common content -----------------------
+
+
+*/
+
+// variable
+@import 'variable/_variable.scss';
+
+// mixin
+@import 'mixin/_mixin.scss';
+
+// function
+@import 'function/_function.scss';
+
+/*=================================================
+    body reset content
+==============================================================*/
+@import 'reset/_predefine.scss';
+
+@import './component/headerDefault';
+
+@import './component/header';
+
+@import './component/offcanvas';
+
+/*=================================================
+    background colors
+==============================================================*/
+@import './reset/bgColors';
+
+/*=================================================
+    element inheritance
+==============================================================*/
+@import 'reset/_inheritance.scss';
